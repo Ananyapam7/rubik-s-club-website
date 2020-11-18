@@ -1,1 +1,1 @@
-# rubik-s-club-website
+# Rubik's Club Website
