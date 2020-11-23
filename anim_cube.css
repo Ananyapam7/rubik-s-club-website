@@ -346,11 +346,6 @@
       opacity: 1;
     }
   }
-  body {
-    height: 100%;
-    width: 100%;
-    background: #000000;
-  }
   
   .container {
     -webkit-perspective: 800px;
