@@ -361,15 +361,15 @@
     width: 22em;
     position: relative;
     border-radius: 100%;
-    background: #c3bebe;
+    background: #000000;
   }
   .container .rubiks-cube {
     width: 12em;
     height: 12em;
     margin: 5em;
     position: absolute;
-    -webkit-animation: rotate 20s infinite linear;
-            animation: rotate 20s infinite linear;
+    -webkit-animation: rotate 10s infinite linear;
+            animation: rotate 10s infinite linear;
     -webkit-transform-style: preserve-3d;
             transform-style: preserve-3d;
     -webkit-transform: rotateY(-30deg) rotateX(-30deg) scale3d(0.7, 0.7, 0.7);
