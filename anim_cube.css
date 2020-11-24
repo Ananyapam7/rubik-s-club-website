@@ -351,7 +351,9 @@
     -webkit-perspective: 800px;
             perspective: 800px;
     box-shadow: 0.5em 0.5em 0.5em rgba(0, 0, 0, 0.3);
-    margin: 10vh auto;
+    margin-left:auto; 
+    margin-right:0;
+    /* margin: 10vh auto; */
     height: 22em;
     width: 22em;
     position: relative;
@@ -359,6 +361,8 @@
     background: #000000;
   }
   .container .rubiks-cube {
+    margin-left:auto; 
+    margin-right:0;
     width: 12em;
     height: 12em;
     margin: 5em;
