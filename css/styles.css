@@ -9787,6 +9787,10 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-red {
+  color: #c41e3a !important;
+}
+
 .text-primary {
   color: #cf4011 !important;
 }
@@ -10010,6 +10014,7 @@ h6 {
 }
 
 h1 {
+  white-space: nowrap;
   line-height: 1;
 }
 
