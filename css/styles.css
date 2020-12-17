@@ -9787,6 +9787,12 @@ button.bg-dark:focus {
   color: #fff !important;
 }
 
+.text-grey {
+  color: rgb(199, 198, 198) !important; 
+}
+
+/* rgb(199, 198, 198) */
+
 .text-red {
   color: #c41e3a !important;
 }
