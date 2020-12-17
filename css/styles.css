@@ -10029,6 +10029,13 @@ p.lead {
   font-weight: 400;
 }
 
+.center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+}
+
 .subheading {
   font-family: "Saira Extra Condensed", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
   text-transform: uppercase;
@@ -10088,11 +10095,11 @@ p.lead {
   display: inline-flex;
   align-items: center;
   justify-content: center;
-  height: 3.5rem;
-  width: 3.5rem;
+  height: 2.5rem;
+  width: 2.5rem;
   background-color: #495057;
   color: #fff;
-  border-radius: 100%;
+  border-radius: 20%;
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
@@ -10100,7 +10107,7 @@ p.lead {
   margin-right: 0;
 }
 .social-icons .social-icon:hover {
-  background-color: #cf4011;
+  background-color: #343f70;
 }
 
 .dev-icons {
