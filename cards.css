@@ -179,7 +179,7 @@
   }
   
   .card__side--back-1 {
-    background: linear-gradient(-45deg, #64b5f6, #f403d1);
+    background: url("images/spotlights/IMG-20190209-WA0009.jpg")
   }
   
   .card__side--back-2 {
