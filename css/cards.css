@@ -84,14 +84,14 @@
   .btn, .btn:link, .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
-    padding: 1rem 1rem;
+    padding: 0.5rem 0.5rem;
     display: inline-block;
     border-radius: 0.5rem;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     position: relative;
-    font-size: 1.2rem;
-    border: none;
+    font-size: 0.7rem;
+    border: black;
     cursor: pointer;
   }
   
@@ -118,11 +118,12 @@
   
   .btn--white {
     background-color: #fff;
-    color: #777;
+    color: rgb(0, 0, 0);
   }
   
   .btn--white::after {
     background-color: #fff;
+    color: rgb(0, 0, 0);
   }
   
   .btn--green {
@@ -160,6 +161,7 @@
     -moz-perspective: 150rem;
     position: relative;
     height: 25rem;
+    border-radius: 200px;
   }
   
   .card__side {
@@ -172,7 +174,7 @@
     width: 100%;
     -webkit-backface-visibility: hidden;
             backface-visibility: hidden;
-    border-radius: 3px;
+    border-radius: 200px;
     overflow: hidden;
     -webkit-box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
             box-shadow: 0 1.5rem 4rem rgba(0, 0, 0, 0.15);
@@ -193,17 +195,16 @@
     /* background: linear-gradient(-45deg, #f321d7, #ffec61); */
   }
   
-  /* .card__side--front-3 {
-    background: url("images/spotlights/img1.jpeg")
-  } */
-  
   .card__side--back {
+
     -webkit-transform: rotateY(180deg);
             transform: rotateY(180deg);
   }
   
   .card__side--back-1 {
-    
+    background-image: url("../images/spotlights/img_back.png");
+    background-size: cover;
+    background-position: center;
   }
   
   .card__side--back-2 {
