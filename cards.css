@@ -59,7 +59,28 @@
     transition: all 0.2s;
     color: #eee;
   }
+
+  .heading-wca {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    font-weight: 700;
+    color: transparent;
+    letter-spacing: 0.2rem;
+    line-height: 1;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: #eee;
+  }
   
+  .credits-heading {
+    font-size: 0.7rem;
+    font-family: sans-serif;
+    color: transparent;
+    -webkit-transition: all 0.2s;
+    transition: all 0.2s;
+    color: rgb(31, 31, 31);
+  }
+
   .btn, .btn:link, .btn:visited {
     text-transform: uppercase;
     text-decoration: none;
