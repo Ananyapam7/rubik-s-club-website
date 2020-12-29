@@ -192,6 +192,9 @@
   }
   
   .card__side--front-2 {
+    background-image: url("../images/spotlights/img2.jpeg");
+    background-size: cover;
+    background-position: center;
     /* background: linear-gradient(-45deg, #f321d7, #ffec61); */
   }
   
@@ -202,12 +205,15 @@
   }
   
   .card__side--back-1 {
-    background-image: url("../images/spotlights/img_back.png");
+    background-image: url("../images/spotlights/img-back.png");
     background-size: cover;
     background-position: center;
   }
   
   .card__side--back-2 {
+    background-image: url("../images/spotlights/img-back.png");
+    background-size: cover;
+    background-position: center;
     /* background: linear-gradient(-45deg, #ffec61, #f321d7); */
   }
   
