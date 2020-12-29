@@ -259,6 +259,15 @@
     color: #fff;
     width: 75%;
   }
+
+  .spotlights-headings {
+    font-size: 2rem;
+    font-weight: 300;
+    text-transform: uppercase;
+    text-align: center;
+    color: rgb(0, 0, 0);
+    width: 75%;
+  }
   
   .card__heading-span {
     padding: 1rem 1.5rem;
