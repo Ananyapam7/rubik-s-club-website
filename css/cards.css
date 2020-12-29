@@ -73,9 +73,8 @@
   }
   
   .credits-heading {
-    font-size: 0.7rem;
-    font-family: sans-serif;
-    color: transparent;
+    font-size: 0.8rem;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     -webkit-transition: all 0.2s;
     transition: all 0.2s;
     color: rgb(31, 31, 31);
