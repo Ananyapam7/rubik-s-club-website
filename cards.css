@@ -321,7 +321,7 @@
     width: calc((100% - 2 * 6rem) / 3);
   }
 
-  .row .col-1-of-5 {
-    width: calc((100%) / 5);
+  .row .col-1-of-3-members {
+    width: calc((100%) / 3);
   }
   
