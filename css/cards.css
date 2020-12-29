@@ -183,7 +183,9 @@
   }
   
   .card__side--front-1 {
-    background-image: url("images/spotlights/img1.jpeg");
+    background-image: url("../images/spotlights/img1.jpeg");
+    background-size: cover;
+    background-position: center;
     /* background: linear-gradient(-45deg, #f403d1, #64b5f6); */
   }
   
