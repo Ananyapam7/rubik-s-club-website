@@ -10091,7 +10091,7 @@ p.lead {
     display: block;
   }
 }
-.social-icons .social-icon {
+.social-icons .social-icon-fb {
   display: inline-flex;
   align-items: center;
   justify-content: center;
@@ -10103,11 +10103,49 @@ p.lead {
   font-size: 1.5rem;
   margin-right: 1.5rem;
 }
-.social-icons .social-icon:last-child {
+.social-icons .social-icon-fb:last-child {
   margin-right: 0;
 }
-.social-icons .social-icon:hover {
+.social-icons .social-icon-fb:hover {
   background-color: #343f70;
+}
+
+.social-icons .social-icon-insta {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #495057;
+  color: rgb(255, 255, 255);
+  border-radius: 20%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon-insta:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon-insta:hover {
+  background-color: #b43aa0;
+}
+
+.social-icons .social-icon-gmail {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  height: 2.5rem;
+  width: 2.5rem;
+  background-color: #495057;
+  color: #fff;
+  border-radius: 20%;
+  font-size: 1.5rem;
+  margin-right: 1.5rem;
+}
+.social-icons .social-icon-gmail:last-child {
+  margin-right: 0;
+}
+.social-icons .social-icon-gmail:hover {
+  background-color: #ad2727;
 }
 
 .dev-icons {
